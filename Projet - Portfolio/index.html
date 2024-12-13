@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Raphaël Parone</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">À propos de moi</a></li>
+                <li><a href="#experience">Connaissances</a></li>
+                <li><a href="#projects">Mes projets</a></li>
+                <li><a href="#contact">Contactez moi</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="" alt="Profile pic" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Salut, je suis</p>
+            <h1 class="title">Raphaël Parone</h1>
+            <p class="section__text__p2">Développeur FullStack</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CVRaphaëlParone.pdf')">
+                    Télécharger mon CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contactez moi
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/Linkedin.svg" alt="Mon profil LinkedIn" class="icon"
+                    onclick="location.href='https://linkedin.com/'" />
+                <img src="./assets/Github-Dark.svg" alt="on profil GitHub" class="icon"
+                    onclick="location.href='https://github.com/'" />
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Voici mes</p>
+        <h1 class="title">Connaissances</h1>
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Développement FrontEnd</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/HTML.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Avancé</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/CSS.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Avancé</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/JavaScript.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermédiare</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/TypeScript.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>TypeScript</h3>
+                            <p>Basique</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/TailwindCSS-Dark.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>TailWind</h3>
+                            <p>Basique</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/Sass.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Sass</h3>
+                            <p>Intermédiare</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Développement BackEnd</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/PHP-Dark.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>PHP</h3>
+                            <p>Intermédiare</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/MySQL-Dark.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>MySQL</h3>
+                            <p>Intermédiare</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/NodeJS-Dark.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>NodeJS</h3>
+                            <p>Intermédiare</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/Git.svg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermédiare</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Gardons le contact !</p>
+        <h1 class="title">Contactez moi</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/Mail.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:raphael.parone@edu.devinci.fr">raphael.parone@edu.devinci.fr</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/LinkedIn.svg" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/raphaël-parone-a17013341/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">À propos de moi</a></li>
+                    <li><a href="#experience">Connaissances</a></li>
+                    <li><a href="#projects">Mes projets</a></li>
+                    <li><a href="#contact">Contactez moi</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
